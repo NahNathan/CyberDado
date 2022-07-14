@@ -1,0 +1,30 @@
+﻿internal class Dado{
+    private static void Main(string[] args){
+
+        //Declarando as variáveis
+        int faces=0, mod=0, rolada=0, selec=0;
+
+        //Começo
+        Random r = new Random();
+        Console.WriteLine("Bom dia, CyberDado Iniciado");
+        do{
+            Console.WriteLine("Digite o numero de faces do dado a ser rolado");
+            faces=System.Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Digite o numero do modificador");
+            mod=System.Convert.ToInt32(Console.ReadLine());
+            //Por enquanto só isso, vou fazer pra rolar mais de uma vez dps
+
+            Console.Clear();
+            rolada=r.Next(1, faces);
+            Console.WriteLine("Rolada: " + rolada);
+            Console.WriteLine("Modificador: " + mod);
+            Console.WriteLine("Total: " + (rolada+mod));
+            Console.WriteLine("Outra Rolada?");
+            Console.WriteLine("(Digite 1 para encerrar)");
+            selec=System.Convert.ToInt32(Console.ReadLine());
+            
+        }while(selec!=1);
+        //Jeito bem BEM ruim de se fazer isso, eu sei
+        //Corrijo outro dia, essa é só a prova de conceito msm
+    }
+}

@@ -1,0 +1,15 @@
+C:\Users\Nathan\Desktop\CyberDado\bin\Debug\net6.0\CyberDado.exe
+C:\Users\Nathan\Desktop\CyberDado\bin\Debug\net6.0\CyberDado.deps.json
+C:\Users\Nathan\Desktop\CyberDado\bin\Debug\net6.0\CyberDado.runtimeconfig.json
+C:\Users\Nathan\Desktop\CyberDado\bin\Debug\net6.0\CyberDado.dll
+C:\Users\Nathan\Desktop\CyberDado\bin\Debug\net6.0\ref\CyberDado.dll
+C:\Users\Nathan\Desktop\CyberDado\bin\Debug\net6.0\CyberDado.pdb
+C:\Users\Nathan\Desktop\CyberDado\obj\Debug\net6.0\CyberDado.csproj.AssemblyReference.cache
+C:\Users\Nathan\Desktop\CyberDado\obj\Debug\net6.0\CyberDado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nathan\Desktop\CyberDado\obj\Debug\net6.0\CyberDado.AssemblyInfoInputs.cache
+C:\Users\Nathan\Desktop\CyberDado\obj\Debug\net6.0\CyberDado.AssemblyInfo.cs
+C:\Users\Nathan\Desktop\CyberDado\obj\Debug\net6.0\CyberDado.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\Desktop\CyberDado\obj\Debug\net6.0\CyberDado.dll
+C:\Users\Nathan\Desktop\CyberDado\obj\Debug\net6.0\ref\CyberDado.dll
+C:\Users\Nathan\Desktop\CyberDado\obj\Debug\net6.0\CyberDado.pdb
+C:\Users\Nathan\Desktop\CyberDado\obj\Debug\net6.0\CyberDado.genruntimeconfig.cache
