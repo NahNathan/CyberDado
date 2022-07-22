@@ -2,7 +2,7 @@
     private static void Main(string[] args){
 
         //Declarando as variáveis
-        int resp=0, faces=0, mod=0, rolada=0, num=0;
+        int resp=0, faces=0, mod=0, rolada=0, num=0, total=0;
 
         //Começo
         Random r=new Random();
@@ -33,9 +33,11 @@
                         Console.Write("\n"); //Isso é para mostrar na msm linha
 
                     Console.WriteLine("Modificador numero " + i + " :    " + mod);
-                    Console.WriteLine("Total numero " + i + " :          "+ (rolada+mod));    
+                    Console.WriteLine("Total numero " + i + " :          "+ (rolada+mod)); 
+                    total+=(rolada+mod);  //Somando o total
                 }
                 
+                Console.WriteLine("\nTotal:                    " + total);
                 Console.WriteLine("\nOutra Rolada?");
                 Console.WriteLine("(Digite 1 para encerrar)");
                 resp=System.Convert.ToInt32(Console.ReadLine());
