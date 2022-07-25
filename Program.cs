@@ -13,11 +13,12 @@
         try{
             do{
                 //Recebendo dados (hehe)
+                total=0; //Resetando total
                 Console.WriteLine("Digite o número de dados a ser rolado");
                 num=System.Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Digite o número de faces do dado a ser rolado");
                 faces=System.Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Digite o número do modificador");
+                Console.WriteLine("Digite o número do modificador de cada dado");
                 mod=System.Convert.ToInt32(Console.ReadLine());
                 Console.Clear();
                 
